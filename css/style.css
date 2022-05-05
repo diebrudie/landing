@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Importing other css files */
+@import url("components/dont-like-to-split-css-files.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 1.0582010582010584vw;
+}
+
+/* Max Font Size */
+@media screen and (min-width:1920px) {
+  body {font-size: 20.31746031746032px;}
+ }
+ /* Container Max Width */
+ .lw-container {
+   max-width: 1920px;
+ }
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+a, a:hover, a:active, a:visited {
+  cursor: pointer !important;
+}
+
+.section {
+  position: relative;
+}
+
+/* Custom design below! */
